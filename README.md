@@ -1,6 +1,7 @@
-# Chosen
+# Chosen (for symfony2 sonata admin)
 
 Chosen is a library for making long, unwieldy select boxes more user friendly.
+A custom admin generator we built at Ethan Resnick Design uses the hyphon character to show inheritance levels of subjects of content. In order to use chosen I just need to remove the hyphens in the search, but keep them everywhere else.
 
 - jQuery support: 1.4+
 - Prototype support: 1.7+
