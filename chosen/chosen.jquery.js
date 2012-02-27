@@ -733,7 +733,7 @@ Copyright (c) 2011 by Harvest
       zregex = new RegExp(searchText.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&"), 'i');
       _ref = this.results_data;
       for (_i = 0, _len = _ref.length; _i < _len; _i++) {
-        option = _ref[_i];
+        option = _ref[_i].replace(/-/gi, "");//strip dashes here
         if (!option.disabled && !option.empty) {
           if (option.group) {
             $('#' + option.dom_id).css('display', 'none');
